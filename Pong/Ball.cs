@@ -19,6 +19,7 @@ namespace Pong
         const float initialSpeedFactor = 100;
         float speedFactor;
         Rectangle field;
+        float speedIncrementer = 20;
 
         public Ball(Game game) : base(game)
         {
@@ -68,6 +69,7 @@ namespace Pong
         public void ResetPosition()
 
         {
+            speedFactor = initialSpeedFactor;
             position.X = (float)field.Width / 2.0f;
             position.Y = (float)field.Height / 2.0f;
             double angle = 45 / (double)180.0 * Math.PI;
@@ -88,6 +90,7 @@ namespace Pong
                 {
                     position.X = collisionRectangle.X + collisionRectangle.Width + rectangle.Width / 2;
                 }
+                speedFactor += speedIncrementer;
                 result = true;
             }
             if (rectangle.Left > 0 && rectangle.Right < field.Right)

@@ -16,7 +16,7 @@ namespace Pong
         public int height = 150;
         public Rectangle rectangle;
         public Vector2 position;
-        const float initialSpeedFactor = 100;
+        const float initialSpeedFactor = 250;
         float speedFactor;
         Rectangle field;
         bool isEnemy = false;
