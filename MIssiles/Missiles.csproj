@@ -7,8 +7,8 @@
     <ProjectGuid>{01513DF2-2FEB-4159-A0D9-B10FA907BF22}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MIssiles</RootNamespace>
-    <AssemblyName>MIssiles</AssemblyName>
+    <RootNamespace>Missiles</RootNamespace>
+    <AssemblyName>Missiles</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14332.0</TargetPlatformVersion>
