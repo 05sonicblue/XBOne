@@ -1,0 +1,453 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin
+/intermediateDir:obj
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Source/background.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/background.jpg
+
+#begin Source/cannon.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/cannon.png
+
+#begin Source/carriage.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/carriage.png
+
+#begin Source/explosion.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/explosion.png
+
+#begin Source/foreground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/foreground.png
+
+#begin Source/ground.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/ground.jpg
+
+#begin Source/missile.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/missile.png
+
+#begin Source/smoke.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Source/smoke.png
+
+#begin Source/font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Source/font.spritefont
+
+#begin Source/Launch.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Source/Launch.wav
+
+#begin Source/PlayerHit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Source/PlayerHit.wav
+
+#begin Source/TerrainHit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Source/TerrainHit.wav
+
+#begin ConvertedAudio/Environment/collision1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Environment/collision1.wav
+
+#begin ConvertedAudio/Environment/collision2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Environment/collision2.wav
+
+#begin ConvertedAudio/Environment/collision3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Environment/collision3.wav
+
+#begin ConvertedAudio/Environment/tunnel.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Environment/tunnel.wav
+
+#begin ConvertedAudio/Vehicles/911/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/911/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/911/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/911/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/911/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/911/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/911/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/911/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/911/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/911/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/Common/grass_slide.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Common/grass_slide.wav
+
+#begin ConvertedAudio/Vehicles/Common/skid1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Common/skid1.wav
+
+#begin ConvertedAudio/Vehicles/Common/skid2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Common/skid2.wav
+
+#begin ConvertedAudio/Vehicles/Common/skid3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Common/skid3.wav
+
+#begin ConvertedAudio/Vehicles/Diablo/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Diablo/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/Diablo/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Diablo/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/Diablo/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Diablo/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/Diablo/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Diablo/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/Diablo/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Diablo/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/F512/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/F512/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/F512/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/F512/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/F512/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/F512/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/F512/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/F512/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/F512/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/F512/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/NSX/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/NSX/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/NSX/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/NSX/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/NSX/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/NSX/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/NSX/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/NSX/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/NSX/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/NSX/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/RX7/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/RX7/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/RX7/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/RX7/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/RX7/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/RX7/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/RX7/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/RX7/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/RX7/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/RX7/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/Supra/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Supra/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/Supra/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Supra/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/Supra/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Supra/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/Supra/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Supra/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/Supra/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Supra/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/Viper/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Viper/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/Viper/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Viper/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/Viper/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Viper/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/Viper/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Viper/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/Viper/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Viper/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/Warrior/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Warrior/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/Warrior/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Warrior/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/Warrior/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Warrior/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/Warrior/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Warrior/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/Warrior/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/Warrior/gear-change.wav
+
+#begin ConvertedAudio/Vehicles/ZR1/engine-off-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/ZR1/engine-off-high.wav
+
+#begin ConvertedAudio/Vehicles/ZR1/engine-off-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/ZR1/engine-off-low.wav
+
+#begin ConvertedAudio/Vehicles/ZR1/engine-on-high.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/ZR1/engine-on-high.wav
+
+#begin ConvertedAudio/Vehicles/ZR1/engine-on-low.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/ZR1/engine-on-low.wav
+
+#begin ConvertedAudio/Vehicles/ZR1/gear-change.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ConvertedAudio/Vehicles/ZR1/gear-change.wav
+

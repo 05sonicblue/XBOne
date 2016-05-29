@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPadTest", "ControlPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", "{785A5D54-3D72-4F7F-A13D-5172781831F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missiles", "MIssiles\Missiles.csproj", "{01513DF2-2FEB-4159-A0D9-B10FA907BF22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,26 @@ Global
 		{785A5D54-3D72-4F7F-A13D-5172781831F9}.Release|x86.ActiveCfg = Release|x86
 		{785A5D54-3D72-4F7F-A13D-5172781831F9}.Release|x86.Build.0 = Release|x86
 		{785A5D54-3D72-4F7F-A13D-5172781831F9}.Release|x86.Deploy.0 = Release|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|ARM.ActiveCfg = Debug|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|ARM.Build.0 = Debug|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|ARM.Deploy.0 = Debug|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x64.ActiveCfg = Debug|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x64.Build.0 = Debug|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x64.Deploy.0 = Debug|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x86.ActiveCfg = Debug|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x86.Build.0 = Debug|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Debug|x86.Deploy.0 = Debug|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|Any CPU.ActiveCfg = Release|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|ARM.ActiveCfg = Release|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|ARM.Build.0 = Release|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|ARM.Deploy.0 = Release|ARM
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x64.ActiveCfg = Release|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x64.Build.0 = Release|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x64.Deploy.0 = Release|x64
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x86.ActiveCfg = Release|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x86.Build.0 = Release|x86
+		{01513DF2-2FEB-4159-A0D9-B10FA907BF22}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
